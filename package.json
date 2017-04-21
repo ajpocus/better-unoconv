@@ -1,6 +1,6 @@
 {
     "name": "better-unoconv",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A better wrapper for converting documents with unoconv.",
     "homepage": "https://github.com/ajpocus/better-unoconv",
     "author": {
