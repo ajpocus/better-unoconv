@@ -53,6 +53,10 @@ unoconv.convert = function(file, outputFormat, options, callback) {
         stderr.push(data);
     });
 
+    child.on('error', function (err) {
+        return callback(new Error(err));
+    });
+
     child.on('exit', function () {
         if (stderr.length) {
             return callback(new Error(Buffer.concat(stderr).toString()));
