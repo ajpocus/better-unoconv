@@ -1,6 +1,6 @@
-# node-unoconv
+# better-unoconv
 
-A node.js wrapper for converting documents with [unoconv](http://dag.wieers.com/home-made/unoconv/).
+A better node.js wrapper for converting documents with [unoconv](http://dag.wieers.com/home-made/unoconv/) that runs on node v7.x.
 
 ## Requirements
 
@@ -14,7 +14,7 @@ Install with:
 
 ## Converting documents
 
-	var unoconv = require('unoconv');
+	var unoconv = require('better-unoconv');
 
 	unoconv.convert('document.docx', 'pdf', function (err, result) {
 		// result is returned as a Buffer
