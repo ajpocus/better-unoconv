@@ -29,7 +29,7 @@ unoconv.convert = function(file, outputFormat, options, callback) {
     }
 
     args = [
-        '-f' + outputFormat,
+        '-f ' + outputFormat,
         '--stdout'
     ];
 
