@@ -19,7 +19,7 @@
     ],
     "dependencies": {
         "underscore": "1.4.x",
-        "mime": "1.2.x"
+        "mime": "1.6.0"
     },
     "license": "MIT"
 }
